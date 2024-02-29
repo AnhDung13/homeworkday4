@@ -1,0 +1,38 @@
+#tabs {
+  width: 100%;
+  height: 46px;
+  position: relative;
+}
+label {
+  background: #ddd;
+  padding: 10px 25px 10px 25px;
+
+  position: relative;
+  line-height: 46px;
+}
+#tab-1:checked ~ label[for="tab-1"] {
+  background: darkblue;
+  color: white;
+}
+#tab-2:checked ~ label[for="tab-2"] {
+  background: darkblue;
+  color: white;
+}
+#tab-3:checked ~ label[for="tab-3"] {
+  background: darkblue;
+  color: white;
+}
+#tab-4:checked ~ label[for="tab-4"] {
+  background: darkblue;
+  color: white;
+}
+#tab-5:checked ~ label[for="tab-5"] {
+  background: darkblue;
+  color: white;
+}
+.box {
+  display: none;
+}
+#tab-1:checked ~ .box-1 {
+  display: block;
+}

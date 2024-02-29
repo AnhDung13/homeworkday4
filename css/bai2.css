@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  text-align: center;
+  margin-top: 30px;
+}
+table {
+  margin: 0 auto;
+}
+span {
+  font-family: Bebas Neue;
+  color: #3a2616;
+  font-size: 30px;
+}
+h1 {
+  font-family: Alfa Slab One;
+  font-size: 3em;
+  color: #3a2616;
+  padding: 20px 0 15px 0;
+}
+::placeholder {
+  text-transform: uppercase;
+  color: #3e291b;
+  font-family: Bebas Neue;
+  font-size: large;
+  padding-left: 15px;
+}
+button {
+  font-family: Alfa Slab One;
+  width: 300px;
+  height: 40px;
+  background: #b2342c;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+table td {
+  padding: 5px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ddd;
+}
